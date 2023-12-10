@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мөр бичлэгийн Дэлгэрэнгүй</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Мөр бичлэгийн Дэлгэрэнгүй</h1>
+        <label for="articleNumberInput">Мөр бичлэгийн дугаар:</label>
+        <input type="text" id="articleNumberInput" placeholder="Мөр бичлэгийн дугаар">
+        <button onclick="getArticleDetails()">Дэлгэрэнгүй харах</button>
+        <div id="articleDetailsContainer" class="result-container"></div>
+    </div>
+
+    <script>
+        function getArticleDetails() {
+            // Мөр бичлэгийн дугаараа авах
+            var articleNumber = document.getElementById("articleNumberInput").value;
+
+            // XmlHttpRequest-г үүсгэх
+            var xhr = new XMLHttpRequest();
+
+            // Хариу авах үед гүйцэтгэх үйлдэл
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4) { // Хариу өгөгдөлтэй бол
+                    if (xhr.status == 200) { // Амжилттай хүсэлт илгээсэн бол
+                        // Хариу авсан өгөгдөл
+                        var response = JSON.parse(xhr.responseText);
+
+                        // Өгөгдлийг харуулах
+                        displayArticleDetails(response);
+                    } else {
+                        // Алдаа гарсан тохиолдолд алдаа мэдэгдэх
+                        displayError("HTTP алдаа: " + xhr.status);
+                    }
+                }
+            };
+
+            // Хүсэлт илгээх
+            xhr.open("GET", "detail.php?article_number=" + encodeURIComponent(articleNumber), true);
+            xhr.send();
+        }
+
+        // Өгөгдлийг харуулах үйлдэл
+        function displayArticleDetails(response) {
+            var articleDetailsContainer = document.getElementById("articleDetailsContainer");
+
+            // Мөр бичлэгийн дэлгэрэнгүйг хэвлэх
+            articleDetailsContainer.innerHTML = "<h2>Мөр бичлэгийн Дэлгэрэнгүй:</h2>";
+
+            if (response.error) {
+                // Алдаа гарсан тохиолдолд алдаа мэдэгдэх
+                displayError(response.error);
+            } else {
+                // Амжилттай мөр бичлэгийн өгөгдөл
+                var detailsList = document.createElement("ul");
+
+                for (var key in response) {
+                    if (response.hasOwnProperty(key)) {
+                        var listItem = document.createElement("li");
+                        listItem.textContent = key + ": " + response[key];
+                        detailsList.appendChild(listItem);
+                    }
+                }
+
+                articleDetailsContainer.appendChild(detailsList);
+            }
+        }
+
+        // Алдаа харуулах үйлдэл
+        function displayError(message) {
+            var articleDetailsContainer = document.getElementById("articleDetailsContainer");
+            articleDetailsContainer.innerHTML = "<div class='error-message'>" + message + "</div>";
+        }
+    </script>
+
+</body>
+</html>
+

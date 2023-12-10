@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Nov 27, 2023 at 07:14 AM
+-- Generation Time: Nov 29, 2023 at 09:13 AM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.8
 
@@ -24,36 +24,31 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `kino_table`
+-- Table structure for table `hereglee_table`
 --
 
-CREATE TABLE `kino_table` (
+CREATE TABLE `hereglee_table` (
   `id` int NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `turul` varchar(255) NOT NULL
+  `turul` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dumping data for table `kino_table`
+-- Dumping data for table `hereglee_table`
 --
 
-INSERT INTO `kino_table` (`id`, `name`, `turul`) VALUES
-(1, 'menu', 'adal yvdalt'),
-(2, 'aav', 'ger buliin'),
-(3, 'end game', 'uran zugnult'),
-(4, 'zoori', 'aimshgiin'),
-(5, 'unsgeljin', 'huudhiin'),
-(6, 'tenet', 'uran zugnult'),
-(7, 'rush hour', 'ineedmiin');
+INSERT INTO `hereglee_table` (`id`, `turul`) VALUES
+(1, 'baga'),
+(2, 'heviin'),
+(3, 'het');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `kino_table`
+-- Indexes for table `hereglee_table`
 --
-ALTER TABLE `kino_table`
+ALTER TABLE `hereglee_table`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -61,10 +56,10 @@ ALTER TABLE `kino_table`
 --
 
 --
--- AUTO_INCREMENT for table `kino_table`
+-- AUTO_INCREMENT for table `hereglee_table`
 --
-ALTER TABLE `kino_table`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+ALTER TABLE `hereglee_table`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

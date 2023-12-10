@@ -1,0 +1,602 @@
+[
+    {
+        "id": "1",
+        "name": "togoo",
+        "category": "1",
+        "hereglee": "het"
+    },
+    {
+        "id": "2",
+        "name": "halbaga",
+        "category": "1",
+        "hereglee": "baga"
+    },
+    {
+        "id": "3",
+        "name": "alchuur",
+        "category": "1",
+        "hereglee": "het"
+    },
+    {
+        "id": "4",
+        "name": "seree",
+        "category": "1",
+        "hereglee": "baga"
+    },
+    {
+        "id": "5",
+        "name": "taglaa",
+        "category": "1",
+        "hereglee": "het"
+    },
+    {
+        "id": "6",
+        "name": "elduur",
+        "category": "1",
+        "hereglee": "baga"
+    },
+    {
+        "id": "7",
+        "name": "ugaagch",
+        "category": "1",
+        "hereglee": "het"
+    },
+    {
+        "id": "8",
+        "name": "hutguur",
+        "category": "1",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "9",
+        "name": "salfitka",
+        "category": "1",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "10",
+        "name": "zalguur",
+        "category": "1",
+        "hereglee": "ih"
+    },
+    {
+        "id": "11",
+        "name": "buidan",
+        "category": "2",
+        "hereglee": "het"
+    },
+    {
+        "id": "12",
+        "name": "hivs",
+        "category": "2",
+        "hereglee": "het"
+    },
+    {
+        "id": "13",
+        "name": "tv",
+        "category": "2",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "14",
+        "name": "tsag",
+        "category": "2",
+        "hereglee": "baga"
+    },
+    {
+        "id": "15",
+        "name": "udirdlaga",
+        "category": "2",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "16",
+        "name": "zurag",
+        "category": "2",
+        "hereglee": "baga"
+    },
+    {
+        "id": "17",
+        "name": "art",
+        "category": "2",
+        "hereglee": "baga"
+    },
+    {
+        "id": "18",
+        "name": "taviur",
+        "category": "2",
+        "hereglee": "het"
+    },
+    {
+        "id": "19",
+        "name": "shiree",
+        "category": "2",
+        "hereglee": "het"
+    },
+    {
+        "id": "20",
+        "name": "suvinar",
+        "category": "2",
+        "hereglee": "baga"
+    },
+    {
+        "id": "21",
+        "name": "savan",
+        "category": "3",
+        "hereglee": "het"
+    },
+    {
+        "id": "22",
+        "name": "soiz",
+        "category": "3",
+        "hereglee": "het"
+    },
+    {
+        "id": "23",
+        "name": "ugaalgiin nuntag",
+        "category": "3",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "24",
+        "name": "toli",
+        "category": "3",
+        "hereglee": "baga"
+    },
+    {
+        "id": "25",
+        "name": "oo",
+        "category": "3",
+        "hereglee": "baga"
+    },
+    {
+        "id": "26",
+        "name": "ugaalgiin mashin",
+        "category": "3",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "27",
+        "name": "ulguur",
+        "category": "3",
+        "hereglee": "baga"
+    },
+    {
+        "id": "28",
+        "name": "shurshuur",
+        "category": "3",
+        "hereglee": "het"
+    },
+    {
+        "id": "29",
+        "name": "shampoo",
+        "category": "3",
+        "hereglee": "baga"
+    },
+    {
+        "id": "30",
+        "name": "ugaagch",
+        "category": "3",
+        "hereglee": "het"
+    },
+    {
+        "id": "31",
+        "name": "or",
+        "category": "4",
+        "hereglee": "het"
+    },
+    {
+        "id": "32",
+        "name": "hunjil",
+        "category": "4",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "33",
+        "name": "shuugee",
+        "category": "4",
+        "hereglee": "baga"
+    },
+    {
+        "id": "34",
+        "name": "devsger",
+        "category": "4",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "35",
+        "name": "gudas",
+        "category": "4",
+        "hereglee": "het"
+    },
+    {
+        "id": "36",
+        "name": "untalgiin huvtsas",
+        "category": "4",
+        "hereglee": "baga"
+    },
+    {
+        "id": "37",
+        "name": "sandal",
+        "category": "4",
+        "hereglee": "baga"
+    },
+    {
+        "id": "38",
+        "name": "tsonh",
+        "category": "4",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "39",
+        "name": "zurag",
+        "category": "4",
+        "hereglee": "baga"
+    },
+    {
+        "id": "40",
+        "name": "gerel",
+        "category": "4",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "51",
+        "name": "tulhuur",
+        "category": "5",
+        "hereglee": "baga"
+    },
+    {
+        "id": "52",
+        "name": "utas",
+        "category": "5",
+        "hereglee": "het"
+    },
+    {
+        "id": "53",
+        "name": "devter",
+        "category": "5",
+        "hereglee": "baga"
+    },
+    {
+        "id": "54",
+        "name": "bal",
+        "category": "5",
+        "hereglee": "baga"
+    },
+    {
+        "id": "55",
+        "name": "usb",
+        "category": "5",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "56",
+        "name": "toli",
+        "category": "5",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "57",
+        "name": "usnii sav",
+        "category": "5",
+        "hereglee": "het"
+    },
+    {
+        "id": "58",
+        "name": "nom",
+        "category": "5",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "59",
+        "name": "ungulugch",
+        "category": "5",
+        "hereglee": "baga"
+    },
+    {
+        "id": "60",
+        "name": "chihevch",
+        "category": "5",
+        "hereglee": "het"
+    },
+    {
+        "id": "61",
+        "name": "mashin tulhuur",
+        "category": "6",
+        "hereglee": "het"
+    },
+    {
+        "id": "62",
+        "name": "bichig barimt",
+        "category": "6",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "63",
+        "name": "emiin san",
+        "category": "6",
+        "hereglee": "baga"
+    },
+    {
+        "id": "64",
+        "name": "galiin hor",
+        "category": "6",
+        "hereglee": "baga"
+    },
+    {
+        "id": "65",
+        "name": "salon ungulugch",
+        "category": "6",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "66",
+        "name": "boxi",
+        "category": "6",
+        "hereglee": "baga"
+    },
+    {
+        "id": "67",
+        "name": "alchuur",
+        "category": "6",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "68",
+        "name": "shil",
+        "category": "6",
+        "hereglee": "baga"
+    },
+    {
+        "id": "69",
+        "name": "unemleh",
+        "category": "6",
+        "hereglee": "het"
+    },
+    {
+        "id": "70",
+        "name": "toos archigch",
+        "category": "6",
+        "hereglee": "baga"
+    },
+    {
+        "id": "71",
+        "name": "ajliin huvtsas",
+        "category": "7",
+        "hereglee": "het"
+    },
+    {
+        "id": "72",
+        "name": "unemleh",
+        "category": "7",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "73",
+        "name": "laptop",
+        "category": "7",
+        "hereglee": "het"
+    },
+    {
+        "id": "74",
+        "name": "mouse",
+        "category": "7",
+        "hereglee": "baga"
+    },
+    {
+        "id": "75",
+        "name": "devter",
+        "category": "7",
+        "hereglee": "baga"
+    },
+    {
+        "id": "76",
+        "name": "ayga",
+        "category": "7",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "77",
+        "name": "hogiin sav",
+        "category": "7",
+        "hereglee": "baga"
+    },
+    {
+        "id": "78",
+        "name": "ajliin utas",
+        "category": "7",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "79",
+        "name": "sandal",
+        "category": "7",
+        "hereglee": "het"
+    },
+    {
+        "id": "80",
+        "name": "chihevch",
+        "category": "7",
+        "hereglee": "het"
+    },
+    {
+        "id": "81",
+        "name": "shulsevch",
+        "category": "8",
+        "hereglee": "het"
+    },
+    {
+        "id": "82",
+        "name": "tereg",
+        "category": "8",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "83",
+        "name": "malgai",
+        "category": "8",
+        "hereglee": "baga"
+    },
+    {
+        "id": "84",
+        "name": "huld oruulagch",
+        "category": "8",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "85",
+        "name": "zuragt nom",
+        "category": "8",
+        "hereglee": "baga"
+    },
+    {
+        "id": "86",
+        "name": "pampris",
+        "category": "8",
+        "hereglee": "het"
+    },
+    {
+        "id": "87",
+        "name": "soosog",
+        "category": "8",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "88",
+        "name": "togloom",
+        "category": "8",
+        "hereglee": "het"
+    },
+    {
+        "id": "89",
+        "name": "uneg",
+        "category": "8",
+        "hereglee": "baga"
+    },
+    {
+        "id": "90",
+        "name": "duu",
+        "category": "8",
+        "hereglee": "het"
+    },
+    {
+        "id": "91",
+        "name": "usnii huvtsas",
+        "category": "9",
+        "hereglee": "het"
+    },
+    {
+        "id": "92",
+        "name": "tavchih",
+        "category": "9",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "93",
+        "name": "shil",
+        "category": "9",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "94",
+        "name": "avragch",
+        "category": "9",
+        "hereglee": "baga"
+    },
+    {
+        "id": "95",
+        "name": "alchuur",
+        "category": "9",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "96",
+        "name": "shampoo",
+        "category": "9",
+        "hereglee": "baga"
+    },
+    {
+        "id": "97",
+        "name": "sens",
+        "category": "9",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "98",
+        "name": "savan",
+        "category": "9",
+        "hereglee": "baga"
+    },
+    {
+        "id": "99",
+        "name": "durem",
+        "category": "9",
+        "hereglee": "het"
+    },
+    {
+        "id": "100",
+        "name": "tulhuur",
+        "category": "9",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "101",
+        "name": "nuurnii savan",
+        "category": "10",
+        "hereglee": "het"
+    },
+    {
+        "id": "102",
+        "name": "huvun",
+        "category": "10",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "103",
+        "name": "serum",
+        "category": "10",
+        "hereglee": "baga"
+    },
+    {
+        "id": "104",
+        "name": "tos",
+        "category": "10",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "105",
+        "name": "chiigshuulegch",
+        "category": "10",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "106",
+        "name": "toner",
+        "category": "10",
+        "hereglee": "het"
+    },
+    {
+        "id": "107",
+        "name": "emuls",
+        "category": "10",
+        "hereglee": "heviin"
+    },
+    {
+        "id": "108",
+        "name": "mask",
+        "category": "10",
+        "hereglee": "baga"
+    },
+    {
+        "id": "109",
+        "name": "guujuulagch",
+        "category": "10",
+        "hereglee": "baga"
+    },
+    {
+        "id": "110",
+        "name": "tseverlegch",
+        "category": "10",
+        "hereglee": "het"
+    }
+]

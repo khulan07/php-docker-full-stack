@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Nov 27, 2023 at 07:02 AM
+-- Generation Time: Nov 29, 2023 at 09:13 AM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.8
 
@@ -24,39 +24,38 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sudalsan_hicheel`
+-- Table structure for table `catergory`
 --
 
-CREATE TABLE `sudalsan_hicheel` (
+CREATE TABLE `catergory` (
   `id` int NOT NULL,
-  `hiceel` varchar(255) NOT NULL,
-  `kr` int NOT NULL
+  `name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dumping data for table `sudalsan_hicheel`
+-- Dumping data for table `catergory`
 --
 
-INSERT INTO `sudalsan_hicheel` (`id`, `hiceel`, `kr`) VALUES
-(1, 'Tuuh', 3),
-(2, 'gamshig', 1),
-(3, 'algorithm', 2),
-(4, 'tamir', 3),
-(5, 'ci hel', 3),
-(6, 'magadlal', 2),
-(7, 'soyol sudlal', 2),
-(8, ' mat 1b', 3),
-(9, ' pizk', 3),
-(10, ' angli hel', 2);
+INSERT INTO `catergory` (`id`, `name`) VALUES
+(1, 'gal togoo'),
+(2, 'tom uruu'),
+(3, 'vann'),
+(4, 'untalgiin uruu'),
+(5, 'tsunhend'),
+(6, 'mashind'),
+(7, 'ajil deer'),
+(8, 'huuhded'),
+(9, 'usans sand'),
+(10, 'aris archilgaand');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `sudalsan_hicheel`
+-- Indexes for table `catergory`
 --
-ALTER TABLE `sudalsan_hicheel`
+ALTER TABLE `catergory`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -64,9 +63,9 @@ ALTER TABLE `sudalsan_hicheel`
 --
 
 --
--- AUTO_INCREMENT for table `sudalsan_hicheel`
+-- AUTO_INCREMENT for table `catergory`
 --
-ALTER TABLE `sudalsan_hicheel`
+ALTER TABLE `catergory`
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 

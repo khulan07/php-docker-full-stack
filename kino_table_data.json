@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "menu",
+        "turul": "adal yvdalt"
+    },
+    {
+        "id": "2",
+        "name": "aav",
+        "turul": "ger buliin"
+    },
+    {
+        "id": "3",
+        "name": "end game",
+        "turul": "uran zugnult"
+    },
+    {
+        "id": "4",
+        "name": "zoori",
+        "turul": "aimshgiin"
+    },
+    {
+        "id": "5",
+        "name": "unsgeljin",
+        "turul": "huudhiin"
+    },
+    {
+        "id": "6",
+        "name": "tenet",
+        "turul": "uran zugnult"
+    },
+    {
+        "id": "7",
+        "name": "rush hour",
+        "turul": "ineedmiin"
+    }
+]

@@ -7,17 +7,18 @@ $connect = mysqli_connect(
     'php_docker' # db table
 );
 
-$table_name = "kino_table";
+$table_name = "ahuin_ed_zuils_table";
 
 $query = "SELECT * FROM $table_name";
 
 $response = mysqli_query($connect, $query);
 
-echo "<strong>$table_name: </strong>";
+echo "<strong> $table_name: </strong>";
 while($i = mysqli_fetch_assoc($response))
 {
     echo "<p>".$i['id']."</p>";
     echo "<p>".$i['name']."</p>";
-    echo "<p>".$i['turul']."</p>";
+    echo "<p>".$i['zuils_name']."</p>";
+    echo "<p>".$i['zuils_name']."</p>";
     echo "<hr>";
 }
